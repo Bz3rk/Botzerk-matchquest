@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MemoryQuest</title>
+  </head>
+  <body>
+    <h1>MemoryQuest: Botzerk Challenge</h1>
+    <button id="startButton">Start Game</button>
+    <div class="memory-game">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="score">Timer: <span id="timer">30</span></div>
+      <div class="cards" id="card-container"></div>
+    </div>
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Congratulations</h2>
+        <a class="close" onclick="closePopup()" href="#">&times;</a>
+        <div class="content">
+          You won, more levels will be added later after update😊
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
