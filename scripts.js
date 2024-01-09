@@ -54,7 +54,7 @@ const cardContainer = document.querySelector(".cards");
 const score = document.querySelector("#score");
 const timer = document.querySelector("#timer");
 const startBtn = document.querySelector("#startButton");
-let time = 30;
+let time = 60;
 
 let cardChoosenId = [];
 let cardsChoosen = [];
